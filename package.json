@@ -1,0 +1,17 @@
+{
+  "name": "babel-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "linxiaozhou.com",
+  "license": "MIT",
+  "scripts": {
+    "compile": "npx rimraf dist && npx babel src -x \".js,.ts\" --out-dir dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-typescript": "^7.12.7",
+    "rimraf": "^3.0.2"
+  }
+}
