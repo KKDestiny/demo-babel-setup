@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "linxiaozhou.com",
   "license": "MIT",
+  "repository": "https://github.com/KKDestiny/babel-setup.git",
   "scripts": {
     "compile": "npx rimraf dist && npx babel src -x \".js,.ts\" --out-dir dist"
   },
